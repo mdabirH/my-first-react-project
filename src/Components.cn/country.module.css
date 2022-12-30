@@ -1,0 +1,57 @@
+.country{
+ 
+    background-color: #fff;
+    margin: 2rem;
+
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 0.6rem;
+    transition: all 0.3s;
+    text-align: center;
+   
+
+
+
+}
+.country:hover{
+    transform: scale(1.1);
+    
+}
+
+.btn{
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+    cursor: pointer;
+    background-color: orange;
+    transition: all 0.3s;
+ 
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.var{
+    margin-bottom: 20px;
+}
+.text{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    margin-top: 25px;
+}
+ input{
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    width: 20rem;
+    font-size: 1.2rem;
+ }
+ input:focus{
+    background-color: bisque;
+ }
